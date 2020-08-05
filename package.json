@@ -1,0 +1,30 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "logger package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajkapoor/logger.git"
+  },
+  "keywords": [
+    "winston",
+    "logger"
+  ],
+  "author": "pankaj kapoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankajkapoor/logger/issues"
+  },
+  "homepage": "https://github.com/pankajkapoor/logger#readme",
+  "dependencies": {
+    "express-winston": "^4.0.5",
+    "moment": "^2.27.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0",
+    "winston-slack-webhook-transport": "^1.2.5"
+  }
+}
