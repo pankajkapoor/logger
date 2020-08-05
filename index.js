@@ -5,7 +5,7 @@ const {transports, createLogger,format} = require('winston');
 const SlackHook = require('winston-slack-webhook-transport');
 const moment = require('moment');
 
-const slackWebHook = "https://hooks.slack.com/services/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"
+const slackWebHook = null;
 const ignoredRoutes = {
     "where": [
       "/",
